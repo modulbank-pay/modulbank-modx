@@ -14,7 +14,7 @@ MiniShop2 v.2.4.12 и выше;
 
 ### Установка
 
-1. Скачайте файл
+1. [Скачайте файл](https://github.com/modulbank-pay/modulbank-modx/releases/download/1.0.0/mspmodulbank-1.0.0-pl.transport.zip)
 2. Перейдите в раздел "Пакеты" -> "Установщик" и закрузите файлы выбрав пункт "Загрузить пакет с компьютера"
 ![Загрузка платежного модуля Модульбанка](https://modulbank-pay.github.io/screenshots/modx/1.png)
 
