@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="mspmodulbank" baseClass="xPDOObject" platform="mysql" defaultEngine="InnoDB" phpdoc-package="mspmodulbank"
+       version="1.1">
+
+    <object class="mspModulbankBill" table="ms2_mspmodulbank_bill" extends="xPDOObject">
+        <field key="order_id" dbtype="int" precision="10" phptype="int" null="false" default="0"/>
+        <field key="bill_id" dbtype="varchar" precision="36" phptype="string" null="false" index="pk"/>
+        <field key="transaction" dbtype="varchar" precision="50" phptype="string" null="true" default=""/>
+
+        <index alias="order_id" name="order_id" primary="false" unique="false" type="BTREE">
+            <column key="order_id" length="" collation="A" null="false"/>
+        </index>
+        <index alias="bill_id" name="bill_id" primary="true" unique="true" type="BTREE">
+            <column key="bill_id" length="" collation="A" null="false"/>
+        </index>
+    </object>
+
+</model>
